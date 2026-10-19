@@ -97,34 +97,6 @@ a {
   text-align: left;
 }
 
-.approach-strip {
-  background: rgba(255, 253, 248, 0.78);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  overflow: hidden;
-}
-
-.approach-strip div {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 25px 24px;
-  text-align: center;
-}
-
-.approach-strip div + div {
-  border-left: 1px solid var(--line);
-}
-
-.approach-strip span {
-  color: var(--accent-dark);
-  font-size: clamp(16px, 1.7vw, 20px);
-  font-weight: 700;
-}
-
 .hero-copy {
   min-width: 0;
 }
@@ -390,7 +362,7 @@ h1 {
 .stack-grid {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .stack-grid div {
@@ -398,23 +370,6 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 22px;
-}
-
-.capability-notes {
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  margin-top: 24px;
-  padding-top: 18px;
-}
-
-.capability-notes p {
-  margin-bottom: 7px;
-}
-
-.capability-notes strong {
-  color: var(--ink);
-  display: inline-block;
-  margin-right: 8px;
 }
 
 .contact {
@@ -510,15 +465,6 @@ h1 {
   .hero-links a {
     padding-left: 14px;
     padding-right: 14px;
-  }
-
-  .approach-strip {
-    grid-template-columns: 1fr;
-  }
-
-  .approach-strip div + div {
-    border-left: 0;
-    border-top: 1px solid var(--line);
   }
 
   .project-card,
