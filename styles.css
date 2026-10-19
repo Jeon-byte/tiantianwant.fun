@@ -107,27 +107,22 @@ a {
 }
 
 .approach-strip div {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  padding: 24px;
+  justify-content: center;
+  padding: 25px 24px;
+  text-align: center;
 }
 
 .approach-strip div + div {
   border-left: 1px solid var(--line);
 }
 
-.approach-strip strong {
-  color: var(--accent-dark);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(20px, 2.3vw, 27px);
-  line-height: 1.2;
-}
-
 .approach-strip span {
-  color: var(--muted);
-  font-size: 13px;
+  color: var(--accent-dark);
+  font-size: clamp(16px, 1.7vw, 20px);
+  font-weight: 700;
 }
 
 .hero-copy {
